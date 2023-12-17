@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+  }
+
+.navbar {
+    background-color: #31343D !important;
+    
+}
+
+.avatar {
+    height: 80px;    
+    border-radius: 50%;
+}
+
+.heroBackground {
+    width: 100vw;
+    height: 15vh;
+    background: url(../images/02-hero-bg.jpg);
+}
+
+.customNav a {
+    color: white;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
