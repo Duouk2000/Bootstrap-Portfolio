@@ -2,20 +2,42 @@
     box-sizing: border-box;
   }
 
-.navbar {
-    background-color: #31343D !important;
-    
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: white;
 }
 
 .avatar {
-    height: 80px;    
-    border-radius: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.heroBackground {
-    width: 100vw;
-    height: 15vh;
-    background: url(../images/02-hero-bg.jpg);
+.card1 {
+    text-align: start;
+}
+
+p {
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+.navbar {
+    background-color: #31343D !important;    
+}
+
+.rockBackground {
+    background-color: #d9823d !important;
+}
+
+.card-text {
+    color: black;
 }
 
 .customNav a {
@@ -25,4 +47,27 @@
 .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
+}
+
+body {
+    background-color: #31343D;
+}
+/* aligns text and adds styling for each section head. */
+.sectionHeading {
+    text-align: start;
+    text-decoration: underline;
+}
+
+button:hover {
+    box-shadow: 2px 2px 5px 0px rgba(248, 242, 242, 0.5);
+  }
+
+  /* adds small padding to better space out each section of the webpage */
+.sectionPadding {
+    padding-top: 5px;
+}
+
+/* changes the link text to aqua on hover */
+a:hover {
+    color: aqua !important;
 }

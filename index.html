@@ -17,23 +17,24 @@
 <body>
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary customNav" id="mainNav">
-        <div class="container-fluid">
-            
-          <a class="navbar-brand" href="#">Andrew Sinkinson</a>
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <a class="navbar-brand" href="#"></a>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-link">
-            <a class="nav-link" aria-current="page" href="#">About Me</a>
+            <a class="nav-link" aria-current="page" href="#aboutMe">About Me</a>
           </li>
             <li class="nav-link">
               <a class="nav-link" aria-current="page" href="#">Work</a>
             </li>
             <li class="nav-link">
-              <a class="nav-link" aria-current="page" href="#">Contact Me</a>
+              <a class="nav-link" aria-current="page" href="#contactMe">Contact Me</a>
             </li>
             <li class="nav-link">
-                <a class="nav-link" aria-current="page" href="#">Resume</a>
+                <a class="nav-link" aria-current="page" href="./images/Andrew Sinkinson CV.pdf">Resume</a>
               </li>
           </ul>
+        </div>
         </div>
       </nav>
     <!-- End navigation bar -->
@@ -41,32 +42,160 @@
   
     <!-- hero section -->
 
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3 rockBackground">
+    <!-- <div class="mb-4 bg-body-tertiary rounded-3 rockBackground">
         <div class="container-fluid py-5 jumboCopy">
-            <img class="avatar" src="./images/avatar.jpg">
+            <img class= "col-md-6 fs-4 avatar" src="./images/avatar.jpg">
           <h1 class="display-5 fw-bold">Andrew Sinkinson</h1>
-          <p class="col-md-12 fs-4">Web Developer</p>
+          <p class="col-md-6 fs-4">Web Developer</p>
           </div>
-      </div>
+      </div> -->
     <!-- end hero section -->
+
+    <!-- <div class="row">
+    <div class="mb-4 bg-body-tertiary rockBackground">
+    <div class="container clearfix">
+        <img class="avatar" src="./images/1580417110012.jfif" class="col-md-6 float-md-start mb-3 ms-md-3" alt="./">
+        <h1 class="display-5 fw-bold">Andrew Sinkinson</h1>
+        <p class="col-md-6 fs-4">Web Developer</p>
+      </div>
+    </div> -->
+
+
     
+    <div class="container">
+    <div class="card mb-3 text-center">
+        <div class="row g-0 rockBackground">
+          <div class="col-md-4">
+            <img src="./images/1580417110012.jfif" class="img-fluid rounded-5 avatar" alt="Andrew">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body card1">
+              <h1 class="display-5 fw-bold">Andrew Sinkinson</h5>
+              <p class="col-md-6 fs-4">Web Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- work section -->
+    <div class="container text-center sectionPadding" id="aboutMe">
+        <div class="row">
+            <h2 class="sectionHeading">Work</h2>
+          <div class="col-sm-12 py-2">
+            <div class="card">
+              <a href="https://duouk2000.github.io/marketing-code-refactoring/">
+                <img src="./images/code-refraction.jpg" class="card-img-top" alt="Codes Refraaction Project">
+              </a>
+                <div class="card-body">
+                  <p class="card-text">This project was completed to show code refraction.</p>
+                </div>
+              </div>            
+          </div>
+          
+        </div>
+        <div class="row">
+          <div class="col-sm-6 py-2">
+            <div class="card">
+              <a href="https://duouk2000.github.io/Portfolio/">
+                <img src="./images/project-2.jpg" class="card-img-top" alt="Grid based Portfolio project">
+              </a>
+                <div class="card-body">
+                  <p class="card-text">This project was to creat my first portfolio page using CSS Flex-Boxes and Grids.</p>
+                </div>
+              </div>
+          </div>
+          
+          <div class="col-sm-6 py-2">
+            <div class="card">
+                <img src="./images/02-portfolio-2.jpg" class="card-img-top" alt="TBC">
+                <div class="card-body">
+                  <p class="card-text">My third project will be linked here.</p>
+                </div>
+              </div>
+          </div>
+        </div>
 
+        <div class="row">
+            <div class="col-sm-6 py-2">
+                <div class="card">
+                    <img src="./images/02-portfolio-3.jpg" class="card-img-top" alt="TBC">
+                    <div class="card-body">
+                      <p class="card-text">My fourth project will be linked here.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-6 py-2">
+                <div class="card">
+                    <img src="./images/02-portfolio-4.jpg" class="card-img-top" alt="TBC">
+                    <div class="card-body">
+                      <p class="card-text">My fifth project will be linked here.</p>
+                    </div>
+                  </div>
+            </div>
+          </div>
+      </div>
     <!-- end work section -->
 
-
     <!-- skills section -->
-
+    <div class="container sectionPadding"> 
+        <div class="row">
+            <div class="col-sm-4 py-2">
+            <h2 class="sectionHeading">My Skills </h2>
+             <li>HTML</li>
+             <li>CSS</li>
+             <li>Bootstrap</li>
+             <li>Java</li>
+        </div>
+     </div> 
+    </div>
     <!-- end skills section -->
 
 
     <!-- about / contact me section -->
+    <div class="container sectionPadding" id="aboutMe">
+        <div class="row">
+          <div class="col-sm-6 py-2">
+        <h2 class="sectionHeading">About Me</h2>
+            <p>I'm on an exhilarating journey into the world of web development, 
+                fueled by an insatiable curiosity and a passion for creating digital 
+                experiences. As an aspiring web developer, I'm enthusiastic about learning 
+                the intricacies of building websites and applications that make a 
+                meaningful impact. I'm committed to continuously honing my skills and 
+                embracing the challenges that come with learning something new. 
+                I strive to collaborate, contribute, and grow within the vibrant 
+                community of developers, sharing insights and collectively pushing 
+                the boundaries of what's possible on the web.</p>
+      </div>  
 
-    <!-- endabout / contact me section -->
-
+      <div class="col-sm-6 py-2" id="contactMe">
+        <h2 class="sectionHeading">Contact</h2>
+        <li class="nav-item">
+            <a class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="mailto:duouk2000@gmail.com">Duouk2000@gmail.com</a>
+          </li>
+        <li class="nav-item">
+          <a class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://github.com/Duouk2000/">GitHub</a>
+        </li>
+        <li class="nav-item">
+            <a class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.linkedin.com/in/andrew-sinkinson-68b26612a/">LinkedIn</a>
+          </li>
+      </div>  
+    </div>
+</div>
+  <!-- endabout / contact me section -->
 
     <!-- footer section -->
+    <ul class="nav nav-underline justify-content-center">
+        <li class="nav-item">
+          <a class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://www.linkedin.com/in/andrew-sinkinson-68b26612a/">Twitter</a>
+        </li>
+        <li class="nav-item">
+            <a class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://open.spotify.com/user/duouk2000?si=d74df739969d47e2">Spotify</a>
+          </li>
+      </ul>
+      <div class="col text-center sectionPadding">
+        <a href="#mainNav" button type="button button1" class="btn btn-warning">Top Page</button>
+        </div>
 
     <!-- end footer / contact me section -->
 
