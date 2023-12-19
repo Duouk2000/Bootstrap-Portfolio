@@ -4,7 +4,7 @@
 
 The aim of this project is to set up a Portfolio page using Bootstrap to showcase my work; viewable on both desktop and mobile devices.
 
-The website can be viewed [here](https://duouk2000.github.io/Bootstrap-Portfolio/)
+The website can be viewed [here](https://duouk2000.github.io/Bootstrap-Portfolio/index.html)
 
 ## Installation
 
