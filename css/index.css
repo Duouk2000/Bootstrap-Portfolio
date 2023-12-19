@@ -10,21 +10,18 @@ h5,
 h6 {
     color: white;
 }
-
+/* adds small amount of padding to alow colour above and below the images in the container */
 .avatar {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .card1 {
     text-align: start;
 }
 
-p {
-    color: white;
-}
-
-li {
+/* styles the text using colour: white */
+p, li, .customNav a {
     color: white;
 }
 
@@ -40,13 +37,12 @@ li {
     color: black;
 }
 
-.customNav a {
-    color: white;
-}
-
+/* sets navbar positioning */
 .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
 }
 
 body {
@@ -58,13 +54,16 @@ body {
     text-decoration: underline;
 }
 
-button:hover {
-    box-shadow: 2px 2px 5px 0px rgba(248, 242, 242, 0.5);
+/* adds box shadow when hovering the mouse over the button */
+.button1:hover {
+    box-shadow: 4px 4px 5px 0px rgba(253, 0, 190, 0.959);
+    margin-bottom: 10px;
   }
 
   /* adds small padding to better space out each section of the webpage */
 .sectionPadding {
     padding-top: 5px;
+    padding-bottom: 5px !important;
 }
 
 /* changes the link text to aqua on hover */
