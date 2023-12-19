@@ -10,15 +10,6 @@ h5,
 h6 {
     color: white;
 }
-/* adds small amount of padding to alow colour above and below the images in the container */
-.avatar {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.card1 {
-    text-align: start;
-}
 
 /* styles the text using colour: white */
 p, li, .customNav a {
@@ -29,14 +20,6 @@ p, li, .customNav a {
     background-color: #31343D !important;    
 }
 
-.jumboBackground {
-    background-color: #d9823d !important;
-}
-
-.card-text {
-    color: black;
-}
-
 /* sets navbar positioning */
 .navbar-nav {
     margin-left: auto;
@@ -45,13 +28,32 @@ p, li, .customNav a {
     font-size: 22px;
 }
 
+/* adds small amount of padding to alow colour above and below the images in the container */
+.avatar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.jumboBackground {
+    background-color: #d9823d !important;
+}
+
+.jumboCard {
+    text-align: start;
+}
+
 body {
     background-color: #31343D;
 }
+
 /* aligns text and adds styling for each section head. */
 .sectionHeading {
     text-align: start;
     text-decoration: underline;
+}
+
+.card-text {
+    color: black;
 }
 
 /* adds box shadow when hovering the mouse over the button */
@@ -70,3 +72,13 @@ body {
 a:hover {
     color: aqua !important;
 }
+
+/* highlights each card while the mouse hovers over it */
+#card1, #card2, #card3, #card4, #card5 {
+    opacity: .9;
+  }
+#card1:hover, #card2:hover, #card3:hover, #card4:hover, #card5:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  
